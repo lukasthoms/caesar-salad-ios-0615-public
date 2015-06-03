@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FISCaesarCipher.h"
 
 @interface FISAppDelegate : UIResponder <UIApplicationDelegate>
 

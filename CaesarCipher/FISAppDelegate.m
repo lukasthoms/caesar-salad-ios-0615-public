@@ -16,6 +16,10 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    FISCaesarCipher *test = [[FISCaesarCipher alloc] init];
+    NSString *message = [test encodeWithMessage:@"A chance of a lifetime" andOffset:3];
+    [test decodeWithMessage:message andOffset:3];
+
     
     return YES;
 }
